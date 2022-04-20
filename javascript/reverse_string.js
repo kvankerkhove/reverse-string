@@ -1,5 +1,8 @@
 function reverseString(str) {
-  // type your code here
+  const newString = ''
+  for(const char of str) {
+    newString = char + newString
+  }
 }
 
 if (require.main === module) {
